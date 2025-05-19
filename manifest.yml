@@ -1,0 +1,14 @@
+---
+# My Cloud Foundry applications
+applications:
+  - name: mynodedemo2
+    path: ./node/
+    instances: 2
+    memory: 128M
+    random-route: true
+  - name: myphpdemo2
+    path: ./php/
+    instances: 1
+    memory: 128M
+    random-route: true
+    buildpack: https://github.com/cloudfoundry/php-buildpack.git
