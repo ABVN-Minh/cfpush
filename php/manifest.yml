@@ -1,0 +1,6 @@
+---
+# My php application
+applications:
+ - name: myphpdemo
+   instances: 1
+   memory: 128M
